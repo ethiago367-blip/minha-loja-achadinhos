@@ -86,7 +86,7 @@ export function WelcomeModal() {
           💡 Ajude a Nossa Loja a Crescer!
          </p>
          <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed pl-1">
-         Não encontrou o achadinho que procurava? Deixe a sua sugestão no nosso formulário de <span className="text-white font-medium">Contato</span>! Diga-nos quais produtos você quer ver por aqui e ajude-nos a trazer as melhores ofertas para si.
+         Não encontrou o produto que procurava? Deixe a sua sugestão no nosso formulário de <span className="text-white font-medium">Contato</span>! Diga-nos quais produtos você quer ver por aqui e ajude-nos a trazer as melhores ofertas para si.
        </p>
      </div>
 
