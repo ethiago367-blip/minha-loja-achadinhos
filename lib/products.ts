@@ -66,23 +66,22 @@ const products: Product[] = [
   
   {
     id: 2,
-    title: "Cropped Top Feminino Personalizado.",
-    description: "Copa 2026 ESTHER BRAZIL.",
-    price: "R$ 29,44",
+    title: "Jogo de Panela Antiaderente.",
+    description: "Jogo de Panelas Indução Conjunto de Panelas Antiaderente Hauskraft.",
+    price: "R$ 305,90",
     images: [
-      "/images/topfeminino.jpg",
-      "/images/topfeminino2.jpg",
-      "/images/topfeminino3.jpg",
-      "/images/topfeminino4.jpg",
-      "/images/topfeminino5.jpg",
-      "/images/topfeminino6.jpg",
-      "/images/topfeminino7.jpg",
-      "/images/topfeminino8.jpg",
-      "/images/topfeminino9.jpg"
+      "/images/jogodepanela.jpg",
+      "/images/jogodepanela2.jpg",
+      "/images/jogodepanela3.jpg",
+      "/images/jogodepanela4.jpg",
+      "/images/jogodepanela5.jpg",
+      "/images/jogodepanela6.jpg",
+      "/images/jogodepanela7.jpg",
+      "/images/jogodepanela8.jpg"
     ],
-    videoUrl: "/videos/topfeminino.mp4",
-    affiliateLink: "https://s.shopee.com.br/7KuHceqsUj",
-    category: "vestuario feminino"
+    videoUrl: "/videos/jogodepanela.mp4",
+    affiliateLink: "https://s.shopee.com.br/80A0e6Cad1",
+    category: "casa e decoracao"
   },
   
   {
