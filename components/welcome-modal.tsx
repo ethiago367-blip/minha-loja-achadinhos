@@ -65,17 +65,17 @@ export function WelcomeModal() {
 
           {/* O que entrou de novo */}
           <div className="space-y-2 rounded-xl bg-zinc-900/50 p-4 border border-zinc-800">
-  <p className="font-semibold text-purple-300 flex items-center gap-2 text-sm sm:text-base">
-    📦 Recém Chegados:
-  </p>
-  <ul className="list-inside list-disc space-y-1.5 text-xs sm:text-sm text-zinc-400 pl-1">
+          <p className="font-semibold text-purple-300 flex items-center gap-2 text-sm sm:text-base">
+          📦 Recém Chegados:
+         </p>
+         <ul className="list-inside list-disc space-y-1.5 text-xs sm:text-sm text-zinc-400 pl-1">
     <li>Novas <span className="text-white font-medium">Camisas Seleção e Kit Moletom</span> na categoria <span className="text-purple-400 font-medium">Vestuário Masculino</span>.</li>
     <li>Novos <span className="text-white font-medium">Croppeds, Macacões e Blusas do Brasil</span> na categoria <span className="text-purple-400 font-medium">Vestuário Feminino</span>.</li>
     <li>Novidades infantis como <span className="text-white font-medium">Camisetas da Copa</span> nas categorias <span className="text-purple-400 font-medium">Infantil Masculino e Feminino</span>.</li>
-    <li>🔥 Nova Categoria Adicionada: <span className="text-white font-medium">Jogos de Lençol 400 Fios, Itens de Limpeza e Mesas Retrô</span> na categoria <span className="text-purple-400 font-medium">Casa e Decoração</span>!</li>
+    <li>🔥 Nova Categoria Adicionada: <span className="text-white font-medium">Jogos de Lençol 400 Fios, Itens de Limpeza, Mesas Retrô e Jogo de Panela Antiaderente</span> na categoria <span className="text-purple-400 font-medium">Casa e Decoração</span>!</li>
     <li>Ajustes de zoom e vídeos aplicados para você conferir a qualidade de cada item!</li>
-  </ul>
-</div>
+         </ul>
+         </div>
 
           {/* Chamada para o Contato */}
           <div className="flex gap-3 rounded-xl border border-blue-500/20 bg-blue-500/5 p-3.5 text-zinc-300">
