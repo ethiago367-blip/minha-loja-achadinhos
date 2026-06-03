@@ -1,0 +1,143 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Paleta roxa/neon do site original */
+  --background: #0b0813;
+  --foreground: #f3effa;
+  
+  --card: rgba(23, 20, 33, 0.85);
+  --card-foreground: #f3effa;
+  
+  --popover: rgba(23, 20, 33, 0.95);
+  --popover-foreground: #f3effa;
+  
+  --primary: #9d4edf;
+  --primary-foreground: #ffffff;
+  --primary-hover: #c77dff;
+  
+  --secondary: rgba(23, 20, 33, 0.6);
+  --secondary-foreground: #f3effa;
+  
+  --muted: rgba(23, 20, 33, 0.5);
+  --muted-foreground: #a29bfe;
+  
+  --accent: #9d4edf;
+  --accent-foreground: #ffffff;
+  
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  
+  --success: #22c55e;
+  
+  --border: rgba(157, 78, 223, 0.2);
+  --input: rgba(23, 20, 33, 0.85);
+  --ring: #9d4edf;
+  
+  --radius: 18px;
+  --transition: 0.3s ease;
+}
+
+@theme inline {
+  --font-sans: 'Geist', Arial, Helvetica, sans-serif;
+  --font-mono: 'Geist Mono', monospace;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font: inherit;
+  }
+  
+  input, textarea {
+    font: inherit;
+    color: inherit;
+  }
+}
+
+/* Classe para texto visivel apenas para leitores de tela */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Efeito de backdrop blur para header */
+.backdrop-blur-header {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Honeypot field - escondido de usuarios reais */
+.honeypot-field {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}

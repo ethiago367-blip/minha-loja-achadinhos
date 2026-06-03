@@ -1,0 +1,13 @@
+# Configuracao de Crawlers
+# Site de afiliados - permite indexacao
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://seu-dominio.com/sitemap.xml
+
+# Bloqueia acesso a pastas sensiveis
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
