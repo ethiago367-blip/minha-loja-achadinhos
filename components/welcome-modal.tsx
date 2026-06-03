@@ -72,7 +72,7 @@ export function WelcomeModal() {
     <li>Novas <span className="text-white font-medium">Camisas Seleção e Kit Moletom</span> na categoria <span className="text-purple-400 font-medium">Vestuário Masculino</span>.</li>
     <li>Novos <span className="text-white font-medium">Croppeds, Macacões e Blusas do Brasil</span> na categoria <span className="text-purple-400 font-medium">Vestuário Feminino</span>.</li>
     <li>Novidades infantis como <span className="text-white font-medium">Camisetas da Copa</span> nas categorias <span className="text-purple-400 font-medium">Infantil Masculino e Feminino</span>.</li>
-    <li>🔥 Nova Categoria Adicionada: <span className="text-white font-medium">Jogos de Lençol 400 Fios, Itens de Limpeza, Mesas Retrô e Jogo de Panela Antiaderente</span> na categoria <span className="text-purple-400 font-medium">Casa e Decoração</span>!</li>
+    <li>🔥 Novos Produtos Adicionado: <span className="text-white font-medium">Jogos de Lençol 400 Fios, Itens de Limpeza, Mesas Retrô e Jogo de Panela Antiaderente</span> na categoria <span className="text-purple-400 font-medium">Casa e Decoração</span>!</li>
     <li>Ajustes de zoom e vídeos aplicados para você conferir a qualidade de cada item!</li>
          </ul>
          </div>
