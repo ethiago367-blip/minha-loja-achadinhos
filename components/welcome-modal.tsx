@@ -72,23 +72,25 @@ export function WelcomeModal() {
     <li>Novas <span className="text-white font-medium">Camisas Seleção e Kit Moletom</span> na categoria <span className="text-purple-400 font-medium">Vestuário Masculino</span>.</li>
     <li>Novos <span className="text-white font-medium">Croppeds, Macacões e Blusas do Brasil</span> na categoria <span className="text-purple-400 font-medium">Vestuário Feminino</span>.</li>
     <li>Novidades infantis como <span className="text-white font-medium">Camisetas da Copa</span> nas categorias <span className="text-purple-400 font-medium">Infantil Masculino e Feminino</span>.</li>
-    <li>🔥 Novos Produtos Adicionado: <span className="text-white font-medium">Jogos de Lençol 400 Fios, Itens de Limpeza, Mesas Retrô e Jogo de Panela Antiaderente</span> na categoria <span className="text-purple-400 font-medium">Casa e Decoração</span>!</li>
+    <li>🔥 Novos Produtos adicionado: <span className="text-white font-medium">Jogos de Lençol 400 Fios, Itens de Limpeza, Mesas Retrô e Jogo de Panela Antiaderente</span> na categoria <span className="text-purple-400 font-medium">Casa e Decoração</span>!</li>
     <li>Ajustes de zoom e vídeos aplicados para você conferir a qualidade de cada item!</li>
          </ul>
          </div>
 
-          {/* Chamada para o Contato */}
-          <div className="flex gap-3 rounded-xl border border-blue-500/20 bg-blue-500/5 p-3.5 text-zinc-300">
-            <MessageCircle className="h-6 w-6 shrink-0 text-blue-400" />
-            <div>
-              <p className="font-semibold text-blue-400 text-sm sm:text-base">Não achou o que queria?</p>
-              <p className="text-xs sm:text-sm text-zinc-400 mt-0.5">
-                Vá até a nossa aba <span className="text-white font-medium">"Contato"</span> e mande uma mensagem dizendo o produto que você quer comprar. Nós encontraremos o melhor preço e adicionaremos aqui para você!
-              </p>
-            </div>
-          </div>
+          {/* Linha divisória sutil para separar os assuntos */}
+         <hr className="border-zinc-800" />
 
-        </div>
+          {/* Texto de engajamento que você sugeriu */}
+          <div className="space-y-1">
+         <p className="font-semibold text-purple-300 flex items-center gap-2 text-sm sm:text-base">
+          💡 Ajude a Nossa Loja a Crescer!
+         </p>
+         <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed pl-1">
+         Não encontrou o achadinho que procurava? Deixe a sua sugestão no nosso formulário de <span className="text-white font-medium">Contato</span>! Diga-nos quais produtos você quer ver por aqui e ajude-nos a trazer as melhores ofertas para si.
+       </p>
+     </div>
+
+  </div>
 
         {/* Botão de Fechar Inferior */}
         <button
